@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "VistaDream: Sampling multiview consistent images for single-view scene reconstruction",
+      "author": "Haiping Wang, Yuan Liu, Ziwei Liu, Wenping Wang, Zhen Dong, Bisheng Yang",
+      "paper": "https://arxiv.org/abs/2410.16892",
+      "code": "https://github.com/WHU-USI3DV/VistaDream",
+      "page": "https://vistadream-project-page.github.io/",
+      "jupyter": "https://github.com/camenduru/VistaDream-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/vista-dream.ipynb",
+      "tags": [
+        "Image to Video"
+      ],
+      "widget": "readme"
+    },
+    "upload": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "input_image_check"
+    },
+    "input_image_check": {
+      "type": "string",
+      "description": "Input Image URL",
+      "widget": "textarea"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=<in%20out>#.png",
+      "image2": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=<in%20out>#.png",
+      "image3": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=<in%20out>#.png",
+      "image4": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=<in%20out>#.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
